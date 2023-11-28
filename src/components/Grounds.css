@@ -1,0 +1,94 @@
+.bookground{
+    text-align: center;
+    padding-top: 35px;
+    
+}
+.bookground h1{
+    color: white;
+    text-shadow: rgb(136, 246, 180) 0px 0 5px;
+    font-size:  35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.topcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    width: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    margin-top: 9%;
+    margin-left: 60px;
+    margin-right: 20px;
+    transition: transform 0.3s ease-out; 
+    
+
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  h2 {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: black;
+  }
+  
+  p {
+    margin: 5px 0;
+    color: black;
+    font-size: 0.9em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: black;
+  }
+  
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  button {
+    padding: 6px 12px;
+    background-color: rgb(20, 184, 20);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+

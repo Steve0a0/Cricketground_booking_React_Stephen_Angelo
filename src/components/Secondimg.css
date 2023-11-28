@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+.headimg {
+    width: 100%;
+    height: 70vh; 
+    position: relative;
+    overflow: hidden;
+    left: 0;
+   
+  }
+  
+  .headimg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.3;
+    z-index: -1;
+  }
+
+  .headtext{
+   
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+  }
+  .headtext h1{
+    font-size: 3rem;
+  }
+
+  .headtextcss{
+    animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
