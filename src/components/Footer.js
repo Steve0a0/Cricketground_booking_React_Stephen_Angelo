@@ -14,20 +14,14 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-section links">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Grounds</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+          
         </div>
         <div className="footer-section social">
           <h4>Follow Us</h4>
           <div className="social-links">
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/stephen.angelo.581/"><i className="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/StephenAng67731"><i className="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/stephennangelo/"><i className="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>

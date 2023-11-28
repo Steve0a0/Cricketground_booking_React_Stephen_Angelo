@@ -19,7 +19,7 @@ export const Navbar = () => {
         <nav>
             <a className="logo" href="https://www.google.com/">PitchPlannerPro</a>
             <div className='navlis'>
-                <a  className= 'booking' href='' onClick={openWhatsApp}>Click Here Book a Ground</a>
+                <a  className= 'booking' href='/' onClick={openWhatsApp}>Click Here Book a Ground</a>
             </div>
             <div id='mobile' onClick={handleClick}>
                 <i id='bar' className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
