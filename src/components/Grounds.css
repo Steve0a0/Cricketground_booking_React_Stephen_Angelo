@@ -91,4 +91,17 @@
     background-color: #0056b3;
   }
   
+  @media only screen and (max-width: 768px){
+
+    .headimg{
+      height: 50vh;
+    }
+
+    .card{
+      margin-left: 20px;
+      width: 260px;
+
+    }
+    
+  }
 

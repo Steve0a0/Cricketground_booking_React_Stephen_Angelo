@@ -41,3 +41,12 @@
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+  @media only screen and (max-width: 768px) {
+  .headtext h1{
+    font-size: 2rem;
+} 
+.headimg img{
+  height: 50vh;
+}
+  }
